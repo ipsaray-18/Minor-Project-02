@@ -1,0 +1,149 @@
+*{
+    text-align: center;
+}
+.d-block{
+    height: 450px;
+}
+.carousel-item h5,p{
+    color: #4a6644;
+}
+*{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#navbar{
+    background-color: #c66f80;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+}
+#navbar a{
+    color: beige;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: #f4c7d0;
+}
+
+h1{
+    background-color: #9faa74;
+    padding: 10px;
+    font-family: 'Rouge Script';
+}
+h2{
+    background-color: #c66f80;
+    font-family: 'Rouge Script';
+}
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+    width: 100vw;
+}
+#hero div{
+    background-color: #d7dab3;
+    height: 250px;
+    width: 220px;
+    padding: 20px;
+}
+#hero h5{
+    padding: 2px;
+}
+#hero img{
+    height: 150px;
+    width: 150px;
+    border: 10px solid #9faa74;
+}
+#hero button{
+    background-color: #9faa74;
+    color: #4a6644;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#hero button:hover{
+    color: beige;
+    scale: 1.07;
+    transition: all 0.4s;
+}
+
+#menu{
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.box{
+    padding: 10px;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    background-color: #fcebf1;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border: 10px solid #f4c7d0;
+}
+.box button{
+    background-color: #f4c7d0;
+    color: #c66f80;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.box button:hover{
+    color: beige;
+    scale: 1.07;
+    transition: all 0.4s;
+}
+.box h5{
+    font-family: 'Kalnia Glaze';
+}
+
+#custom{
+    color: #c66f80;
+}
+
+#contact{
+    background-color: #4a6644;
+    color: #9faa74;
+}
+#contact p{
+    color: #9faa74;
+}
+#contact a{
+    color: beige;
+}
+#contact a:hover{
+    color: #f4c7d0;
+}
+
+@media screen and (max-width: 500px) {
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #hero{
+        display: grid;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+        gap: 10px;
+    }
+    #navbar{
+        max-width: 100vw;
+    }
+    .box{
+        max-width: 90vw;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}
